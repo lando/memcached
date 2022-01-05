@@ -8,7 +8,7 @@ module.exports = {
   name: 'memcached',
   config: {
     version: '1',
-    supported: ['1', '1.5.12', '1.5.x'],
+    supported: ['1', '1.5.12', '1.5.x', '1.6.x'],
     pinPairs: {
       '1': 'bitnami/memcached:1.6.1-debian-10-r4',
     },

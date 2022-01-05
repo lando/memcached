@@ -4,3 +4,5 @@ services:
     type: memcached
   patch:
     type: memcached:1.5.11
+  patch2:
+    type: memcached:1.6.12

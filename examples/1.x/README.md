@@ -28,6 +28,9 @@ lando ssh -s defaults -c "memcached --version | grep 1.6.1"
 # Should use the user specifiec patch version if given
 lando ssh -s patch -c "memcached --version | grep 1.5.11"
 
+# Should use the user specifiec patch version if given
+lando ssh -s patch2 -c "memcached --version | grep 1.6.12"
+
 # Should have a memcached process running on port 11211 by default
 docker top landomemcached_defaults_1 | grep "memcached -p 11211"
 
