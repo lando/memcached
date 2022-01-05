@@ -3,4 +3,4 @@ services:
   defaults:
     type: memcached
   patch:
-    type: memcached:1.5.11
+    type: memcached:1.5.12
