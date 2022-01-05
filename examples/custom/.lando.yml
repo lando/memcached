@@ -1,0 +1,6 @@
+name: lando-memcached
+services:
+  custom:
+    type: memcached:1.5.12
+    mem: 256
+    portforward: true

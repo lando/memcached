@@ -1,0 +1,6 @@
+name: lando-memcached
+services:
+  defaults:
+    type: memcached
+  patch:
+    type: memcached:1.5.11
