@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         leia-tests:
-          - examples/2.4
+          - examples/1.x
           - examples/custom
         lando-versions:
           - edge
