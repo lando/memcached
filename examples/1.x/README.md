@@ -25,9 +25,6 @@ Run the following commands to validate things are rolling as they should.
 # Should use 1.6.1 as the default version
 lando ssh -s defaults -c "memcached --version | grep 1.6.1"
 
-# Should use the user specified version if given
-lando ssh -s custom -c "memcached --version | grep 1.5.12"
-
 # Should use the user specifiec patch version if given
 lando ssh -s patch -c "memcached --version | grep 1.5.11"
 
