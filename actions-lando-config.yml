@@ -1,0 +1,12 @@
+# Disable the "core" memcached plugins
+disablePlugins:
+  - lando-memcached
+
+# Make sure we are dogfooding this plugin for testing purposes
+plugins:
+  "@lando/memcached": /home/runner/work/memcached/memcached
+
+# Disable metrics reporting
+stats:
+  - report: false
+    url: https://metrics.lando.dev
