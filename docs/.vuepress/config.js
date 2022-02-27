@@ -29,24 +29,6 @@ module.exports = {
         link: '/index.html',
       },
       '/config.md',
-      {
-        text: 'Guides',
-        collapsible: true,
-        children: [
-          {
-            text: 'Accessing Memcached Logs',
-            link: '/accessing-logs.html',
-          },
-          {
-            text: 'Installing extensions',
-            link: '/installing-extensions.html',
-          },
-          {
-            text: 'Installing node',
-            link: '/installing-node.html',
-          },
-        ],
-      },
       '/support.html',
       {text: 'Examples', link: 'https://github.com/lando/memcached/tree/main/examples'},
       {text: 'Release Notes', link: 'https://github.com/lando/memcached/releases'},
