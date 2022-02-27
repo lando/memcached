@@ -28,7 +28,7 @@ module.exports = {
         text: 'Getting Started',
         link: '/index.html',
       },
-      '/config.md',
+      '/config.html',
       '/support.html',
       {text: 'Examples', link: 'https://github.com/lando/memcached/tree/main/examples'},
       {text: 'Release Notes', link: 'https://github.com/lando/memcached/releases'},
