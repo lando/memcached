@@ -26,7 +26,7 @@ module.exports = {
     sidebar: [
       {
         text: 'Getting Started',
-        link: '/index.md',
+        link: '/index.html',
       },
       '/config.md',
       {
@@ -35,22 +35,22 @@ module.exports = {
         children: [
           {
             text: 'Accessing Memcached Logs',
-            link: '/accessing-logs.md',
+            link: '/accessing-logs.html',
           },
           {
             text: 'Installing extensions',
-            link: '/installing-extensions.md',
+            link: '/installing-extensions.html',
           },
           {
             text: 'Installing node',
-            link: '/installing-node.md',
+            link: '/installing-node.html',
           },
         ],
       },
-      '/support.md',
+      '/support.html',
       {text: 'Examples', link: 'https://github.com/lando/memcached/tree/main/examples'},
       {text: 'Release Notes', link: 'https://github.com/lando/memcached/releases'},
-      '/development.md',
+      '/development.html',
     ],
   },
 };
