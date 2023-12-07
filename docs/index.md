@@ -52,12 +52,12 @@ However if you would like to manually install the plugin, update it to the bleed
 mkdir -p ~/.lando/plugins
 
 # Install plugin
-# NOTE: Modify the "yarn add @lando/memcached" line to install a particular version eg
-# yarn add @lando/memcached@0.5.2
+# NOTE: Modify the "npm install @lando/memcached" line to install a particular version eg
+# npm install @lando/memcached@0.5.2
 docker run --rm -it -v ${HOME}/.lando/plugins:/plugins -w /tmp node:14-alpine sh -c \
-  "yarn init -y \
-  && yarn add @lando/memcached --production --flat --no-default-rc --no-lockfile --link-duplicates \
-  && yarn install --production --cwd /tmp/node_modules/@lando/memcached \
+  "npm init -y \
+  && npm install @lando/memcached --production --flat --no-default-rc --no-lockfile --link-duplicates \
+  && npm install --production --cwd /tmp/node_modules/@lando/memcached \
   && mkdir -p /plugins/@lando \
   && mv --force /tmp/node_modules/@lando/memcached /plugins/@lando/memcached"
 
