@@ -2,6 +2,7 @@
 
 // Modules
 const _ = require('lodash');
+const path = require('path');
 
 // Builder
 module.exports = {
@@ -13,7 +14,7 @@ module.exports = {
       '1': 'bitnami/memcached:1.6.1-debian-10-r4',
     },
     patchesSupported: true,
-    confSrc: __dirname,
+    confSrc: path.resolve(__dirname, '..', 'config'),
     mem: 64,
     port: '11211',
   },
