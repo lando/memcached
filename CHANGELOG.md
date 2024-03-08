@@ -1,3 +1,6 @@
+## v1.1.0 - [March 8, 2024](https://github.com/lando/memcached/releases/tag/v1.1.0)
+  * Updated to latest database services.
+
 ## v1.1.0 - [February 21, 2024](https://github.com/lando/memcached/releases/tag/v1.1.0)
 
 * Updated directory structure to new format. [#30](https://github.com/lando/memcached/issues/30)
