@@ -8,7 +8,7 @@ next: ./config.html
 
 [Memcached](https://memcached.org/) is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering.
 
-You can easily add it to your Lando app by adding an entry to the [services](https://docs.lando.dev/core/v3/lando-service.html) top-level config in your [Landofile](https://docs.lando.dev/core/v3).
+You can easily add it to your Lando app by adding an entry to the [services](https://docs.lando.dev/core/v3/services/lando.html) top-level config in your [Landofile](https://docs.lando.dev/core/v3).
 
 ```yaml
 services:
@@ -21,7 +21,7 @@ services:
 *   **[1](https://hub.docker.com/r/bitnami/memcached)** **(default)**
 *   [1.5.12](https://hub.docker.com/r/bitnami/memcached)
 *   [1.5.x](https://hub.docker.com/r/bitnami/memcached)
-*   [custom](https://docs.lando.dev/core/v3/lando-service.html#overrides)
+*   [custom](https://docs.lando.dev/core/v3/services/lando.html#overrides)
 
 ## Patch versions
 
