@@ -3,7 +3,7 @@
   "description": "A Lando plugin that provides a tight integration with Memcached.",
   "version": "1.3.3",
   "author": "Mike Pirog @pirog",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "repository": "lando/memcached",
   "bugs": "https://github.com/lando/memcached/issues/new/choose",
   "homepage": "https://github.com/lando/memcached",
