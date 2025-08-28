@@ -12,6 +12,8 @@ module.exports = {
     supported: ['1', '1.6', '1.6.x', '1.5', '1.5.x', '1.5.12'],
     pinPairs: {
       '1': 'bitnamilegacy/memcached:1.6.39-debian-12-r1',
+      '1.6': 'bitnamilegacy/memcached:1.6.39-debian-12-r1',
+      '1.5': 'bitnamilegacy/memcached:1.5.22',
     },
     patchesSupported: true,
     confSrc: path.resolve(__dirname, '..', 'config'),
