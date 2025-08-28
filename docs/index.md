@@ -21,7 +21,7 @@ services:
 *   [1](https://hub.docker.com/r/bitnamilegacy/memcached)
 *   [1.6](https://hub.docker.com/r/bitnamilegacy/memcached)
 *   [1.5](https://hub.docker.com/r/bitnamilegacy/memcached)
-*   [custom](https://docs.lando.dev/core/v3/services/lando.html#overrides)
+*   [custom](https://docs.lando.dev/services/lando-3.html#overrides)
 
 ## Patch versions
 
