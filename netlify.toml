@@ -41,9 +41,12 @@
   [plugins.inputs.audits]
     output_path = "reports/lighthouse.html"
 
-
-
 # We need this so preview environments and the base site look ok on their own
+[[redirects]]
+  from = "https://lando-memcached.netlify.app/*"
+  to = "https://docs.lando.dev/:splat"
+  status = 301
+  force = true
 [[redirects]]
   from = "/"
   to = "/plugins/memcached"

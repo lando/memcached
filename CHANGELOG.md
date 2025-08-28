@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+* Enforced canonical url redirect
+
 ## v1.4.0 - [August 28, 2025](https://github.com/lando/memcached/releases/tag/v1.4.0)
 
 * Switched images to [bitnamilegacy](https://github.com/bitnami/containers/issues/83267) namspace [#40](https://github.com/lando/memcached/issues/40)
