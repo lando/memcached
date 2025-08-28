@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+## v1.4.0 - [August 28, 2025](https://github.com/lando/memcached/releases/tag/v1.4.0)
+
 * Switched images to [bitnamylegacy](https://github.com/bitnami/containers/issues/83267) namspace [#40](https://github.com/lando/memcached/issues/40)
 * Updated `memcached:1` to `1.6.39`
 * Updated `memcached:1.6` to `1.6.39`
