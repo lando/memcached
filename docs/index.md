@@ -8,19 +8,19 @@ next: ./config.html
 
 [Memcached](https://memcached.org/) is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering.
 
-You can easily add it to your Lando app by adding an entry to the [services](https://docs.lando.dev/core/v3/services/lando.html) top-level config in your [Landofile](https://docs.lando.dev/core/v3).
+You can easily add it to your Lando app by adding an entry to the [services](https://docs.lando.dev/services/lando-3.html) top-level config in your [Landofile](https://docs.lando.dev/landofile/).
 
 ```yaml
 services:
   myservice:
-    type: memcached
+    type: memcached:1
 ```
 
 ## Supported versions
 
-*   **[1](https://hub.docker.com/r/bitnami/memcached)** **(default)**
-*   [1.5.12](https://hub.docker.com/r/bitnami/memcached)
-*   [1.5.x](https://hub.docker.com/r/bitnami/memcached)
+*   [1](https://hub.docker.com/r/bitnamilegacy/memcached)
+*   [1.6](https://hub.docker.com/r/bitnamilegacy/memcached)
+*   [1.5](https://hub.docker.com/r/bitnamilegacy/memcached)
 *   [custom](https://docs.lando.dev/core/v3/services/lando.html#overrides)
 
 ## Patch versions
@@ -34,8 +34,8 @@ To use a patch version, you can do something as shown below:
 ```yaml
 services:
   myservice:
-    type: memcached:1.5.11
+    type: memcached:1.6.38
 ```
 
-But make sure you use one of the available [patch tags](https://hub.docker.com/r/bitnami/memcached/tags) for the underlying image we are using.
+But make sure you use one of the available [patch tags](https://hub.docker.com/r/bitnamilegacy/memcached/tags) for the underlying image we are using.
 

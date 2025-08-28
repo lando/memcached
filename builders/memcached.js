@@ -9,9 +9,9 @@ module.exports = {
   name: 'memcached',
   config: {
     version: '1',
-    supported: ['1', '1.5.12', '1.5.x'],
+    supported: ['1', '1.6', '1.6.x', '1.5', '1.5.x', '1.5.12'],
     pinPairs: {
-      '1': 'bitnami/memcached:1.6.1-debian-10-r4',
+      '1': 'bitnamilegacy/memcached:1.6.39-debian-12-r1',
     },
     patchesSupported: true,
     confSrc: path.resolve(__dirname, '..', 'config'),
@@ -23,7 +23,7 @@ module.exports = {
     constructor(id, options = {}) {
       options = _.merge({}, config, options);
       const memcached = {
-        image: `bitnami/memcached:${options.version}`,
+        image: `bitnamilegacy/memcached:${options.version}`,
         command: '/launch.sh',
         environment: {
           MEMCACHED_CACHE_SIZE: options.mem,
