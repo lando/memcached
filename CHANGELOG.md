@@ -1,5 +1,10 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+* Switched images to [bitnamylegacy](https://github.com/bitnami/containers/issues/83267) namspace [#40](https://github.com/lando/memcached/issues/40)
+* Updated `memcached:1` to `1.6.39`
+* Updated `memcached:1.6` to `1.6.39`
+* Updated `memcached:1.5` to `1.5.22`
+
 ## v1.3.3 - [December 6, 2024](https://github.com/lando/memcached/releases/tag/v1.3.3)
 
 * Updated the version index.md to get Docuverse page to build correctly.
@@ -13,7 +18,8 @@
 * Updated to [@lando/vitepress-theme-default-plus@v1.1.0-beta.18](https://github.com/lando/vitepress-theme-default-plus/releases/tag/v1.1.0-beta.18).
 
 ## v1.1.0 - [March 8, 2024](https://github.com/lando/memcached/releases/tag/v1.1.0)
-  * Updated to latest database services.
+
+* Updated to latest database services.
 
 ## v1.1.0 - [February 21, 2024](https://github.com/lando/memcached/releases/tag/v1.1.0)
 
