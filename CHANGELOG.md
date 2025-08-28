@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+## v1.4.2 - [August 28, 2025](https://github.com/lando/memcached/releases/tag/v1.4.2)
+
 * Enforced canonical url redirect part 2
 
 ## v1.4.1 - [August 28, 2025](https://github.com/lando/memcached/releases/tag/v1.4.1)
